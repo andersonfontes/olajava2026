@@ -1,3 +1,3 @@
 void main() {
-  $END$
+    System.out.println("ola mundo");
 }
