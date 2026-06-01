@@ -15,6 +15,7 @@ public class ContaCorrente {
 
     double sacar(double valor){
         saldoConta = saldoConta - valor;
+        return 0;
     }
 
     void transferir(){
