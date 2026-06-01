@@ -26,6 +26,7 @@ void main() {
         println(frutas[i] );
     }
 
+    //PESQUISAR O ARRAY E DESCOBRIR O INDICE DO ELEMENTO
     println(Arrays.asList(frutas).indexOf("pera"));
 
 
