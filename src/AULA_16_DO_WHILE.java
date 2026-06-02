@@ -6,16 +6,16 @@ void main() {
 
     String opcao;
 
-    IO.println("Bem-Vindo ao Sistema de Cadastro");
-    IO.println("** MENU DE OPÇÕES **");
-    IO.println("1- CADASTRAR PACIENTE");
-    IO.println("2- ALTERAR PACIENTE");
-    IO.println("3- EXCLUIR PACIENTE");
-    IO.println("4- SAIR ");
+    do {
+        IO.println("Bem-Vindo ao Sistema de Cadastro");
+        IO.println("** MENU DE OPÇÕES **");
+        IO.println("1- CADASTRAR PACIENTE");
+        IO.println("2- ALTERAR PACIENTE");
+        IO.println("3- EXCLUIR PACIENTE");
+        IO.println("4- SAIR ");
 
-    opcao = readln("\nDigite a opcao desejada: ");
+        opcao = readln("\nDigite a opcao desejada: ");
 
-    while(!opcao.equals("4")){
         IO.println("\nOpção escolhida:" + opcao);
 
         if (opcao.equals("1")) {
@@ -40,15 +40,5 @@ void main() {
             IO.println("\nFINALIZANDO PROGRAMA...");
             break;
         }
-
-        IO.println("Bem-Vindo ao Sistema de Cadastro");
-        IO.println("** MENU DE OPÇÕES **");
-        IO.println("1- CADASTRAR PACIENTE");
-        IO.println("2- ALTERAR PACIENTE");
-        IO.println("3- EXCLUIR PACIENTE");
-        IO.println("4- SAIR ");
-
-        opcao = readln("\nDigite a opcao desejada: ");
-
-    }
+    }while(!opcao.equals("4"));
 }
