@@ -1,6 +1,6 @@
 import static java.lang.IO.*;
 
-public class CadastroAlunos {
+public class GAB_DESAFIO_CADASTRO {
 
     public static void main(String[] args) {
 
